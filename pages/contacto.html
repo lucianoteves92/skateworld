@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+</head>
+<link rel="stylesheet" href="../css/estilos.css">
+<style>
+    header {
+    background-color: darkgray;
+    color: red;
+    border: black solid 2px;
+    font-weight: bold;
+    font-family: arial;
+    text-decoration: none;
+    margin: 0.5em;
+    text-align-last: center;
+    align-content: center;
+    justify-content: space-between;
+    }
+        .logo {
+            width: 1fr;
+                }
+            .logo img {
+                width: 1fr;
+            }
+    h2 {
+        color: red;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+}
+</style>
+<body>
+    
+<header>
+    <div class="logo">
+        <a href="../index.html"><img src="../image/th.jpg" alt="logo"></a>
+        </div>
+
+    <h2>Contacto</h2>
+
+    <header>
+        
+        <nav> 
+            <h3>Skate world</h3>
+            <ul>
+        <li><a href="../index.html">inicio</a></li>
+        <li><a href="skatenlong.html">skate and longs</a></li>
+        <li><a href="precios.html">precios</a></li>
+        <li><a href="recreativo.html">recreativo</a></li> 
+    </ul>
+    </nav>
+</header>
+    
+        <section>
+
+    <h3>nosotros</h3>
+    <h4>registrate y recibi las novedades y el newsletter todas las semanas.</h4>
+</section>
+<article>
+    <div class="form">
+<form class="form" action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+    <h2>registro gratis</h2>
+    <div class="box">
+    nombre<input type="text" required> <br>
+    apellido<input type="text" required> <br>
+    email<input type="email" required> <br>
+    fecha de nacimiciento<input type="date" required> <br>
+    estado civil<select name="estado civil"> <br>
+        <option value="soltero/a">soltero/a</option>
+        <option value="en pareja">en pareja</option>
+        <option value="casado/a">casado/a</option>
+        <option value="es complicado">es complicado</option></select> <br>
+        </div>
+        <strong> deseas recibir email y newsletter?</strong>
+        <div class="input">si deseo<input type="checkbox"> 
+        <textarea name="areadetexto" cols="30" rows="10" placeholder="escribe aqui tu comentario"></textarea></br></div>
+<input type="submit" value="enviar datos"/><br>
+        ><input type="reset" value="borrar datos"/><br>
+        
+        </form>
+    </div>
+</article>
+
+<footer>
+    <h3>donde buscarnos y como encontrarnos</h3>
+    <div class="fila">
+    <div class="columnas">
+        <a href="https://www.instagram.com">instagram</a>
+        <a href="https://www.facebook.com">facebook</a>
+        <a href="https://www.gmail.com">email</a>
+    </div>
+    <div class="columnas">
+        <a href="politica de privacidad">politica de privacidad</a>
+        <a href="derechos de autor">derechos de autor</a>
+    </div>
+</div>
+    </footer>
+</body> 
+</html>

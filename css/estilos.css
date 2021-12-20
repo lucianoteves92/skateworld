@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(207, 205, 205);
+  color: red;
+  font-size: medium;
+  font-family: arial;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+nav ul li {
+  text-decoration: none;
+  display: inline;
+  margin: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0.2em;
+}
+
+a:hover {
+  color: red;
+}
+
+main {
+  color: crimson;
+  background-color: rgb(160, 158, 158);
+  border: darkmagenta;
+  font-size: medium;
+  font-family: arial;
+  font-weight: bolder;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  padding: 0.2em;
+}
+
+main p {
+  padding: 0.5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: red;
+  border: rosybrown;
+  font-size: small;
+  font-family: arial;
+  font-weight: bolder;
+  border: red 2px;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+}
+
+article {
+  color: red;
+  background-color: grey;
+  background-position: center;
+  background-size: medium;
+  border: 10px;
+  font-size: medium;
+  font-family: arial;
+  font-weight: bolder;
+  text-align: center;
+  border-color: black;
+}
+section {
+  color: darkred;
+  background-color: rgb(44, 43, 43);
+  font-size: medium;
+  font-family: arial;
+  text-align: center;
+  border: 5px;
+  background-image: url(../fotos/th.jpg);
+  background-repeat: repeat;
+  border-color: red;
+  border-style: solid;
+}
+
+.longs .imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.columnas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0.3em;
+}
