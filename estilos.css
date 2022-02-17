@@ -1,0 +1,201 @@
+*{
+    margin : 0 ;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: darkgray;
+    color: rgb(122, 2, 2);
+    border: black 2px solid;
+
+}
+
+header{
+    background-image: linear-gradient(to bottom , gray, darkseagreen);
+    border: solid 3px black;
+    color: red;
+    }
+    header h2{
+        animation-name: aparecer;
+    animation-duration: 3s;
+    }
+
+    @keyframes aparecer{
+        0% {opacity: 0}
+        100%{opacity: 1;}
+    }
+
+    nav{
+        background-color: darkseagreen;
+        border: solid 3px black;
+        font-size: medium;
+        font-family: arial;
+        font-style: italic;
+        font-weight: bolder;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+    nav div{
+        text-decoration: none;
+        display: inline-block;
+        margin: 0.5em;
+    }
+    main{
+        background-color: darkgray;
+        color:red;
+        border: solid black 3px;
+        text-align: center;
+        font: medium arial red italic;
+        
+    }
+    
+    
+    section{
+    background-image: linear-gradient(to bottom,darkgreen ,darkgray );
+    color: red;
+    border: solid 3px black;
+    text-align: center;
+    }
+    .longs div{
+        background-color: darkgray;
+    color: red;
+    display: inline-block;
+    }
+    
+    article{
+        background-color: darkgray;
+        color: rgb(1, 161, 1)
+        border: solid 3px black;
+        background-image: url(./image/skateojo.jpg);
+        background-repeat: repeat;
+        background-size: auto;
+        background-position: center ;
+        text-align: center;
+    }
+    footer{
+    background-color: dimgray;
+    color:red;
+    border: 3px rgb(10, 4, 4) solid;
+    font: medium red arial italic;
+    text-align: center;
+    }
+    .columnas {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .fila {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    
+    ul li a{
+        font: medium green arial italic;
+    }
+    section div{
+        justify-content: center;
+    }
+    main .bloque{
+    border: green solid 5px;
+    display: block;
+    }
+    table{
+        display: block;
+        background-color: darkseagreen;
+    
+    }
+    .prem{
+        display: block;
+        background-color: darkseagreen;
+    
+    }
+    
+    h2 {
+        text-align: center ;
+
+    }
+    
+    div .itemnuevo{
+        background-image: url(./image/th.jpg);
+        background-repeat: repeat 5px 5px;
+    justify-content: center;
+    text-align: center;
+    
+    }
+    
+    .extra{
+        border: 3px black solid;
+        font: medium italic bolder black arial;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    
+    .tabla{
+        border: darkslategray solid 2px;
+        justify-content: center;
+        content: normal;
+        text-align: center;
+        padding: 5px;
+    
+    }
+    
+    .pre{
+        border: solid black 3px ;
+        text-align: center;
+        text-align: center;
+    }
+    .bloque{
+        display: grid;  
+        grid-template-columns: 200px 100px 100px 100px; 
+        grid-template-rows: 40px 40px; 
+        justify-content: center;
+    }
+    
+    .prem1{
+        display: grid;  
+        grid-template-columns: 200px 100px 100px 100px; 
+        grid-template-rows: 40px 40px; 
+        justify-content: center;
+    }
+
+    .imagen img{
+        transform: translate(10px, 5px);
+    }
+
+section .itemnuevo img{
+    transform: rotate(-90deg);
+    
+}
+
+main .imagen img{
+    transform: scale(2,1);
+    transition: all 0.5s;
+}
+
+.imagen:hover{
+transform: scale(1.5,1);
+opacity: 1;
+color: aqua;
+}
+
+
+
+@media  screen and (min width: 320px) {t
+    
+}
+
+@media  screen and (min width: 768px) {t
+    
+}
+
+@media  screen and (min width: 1200px) {t
+    
+}
